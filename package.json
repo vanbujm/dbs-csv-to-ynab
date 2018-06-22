@@ -1,0 +1,27 @@
+{
+  "name": "dbs-csv-to-ynab",
+  "version": "1.0.0",
+  "description": "Add ynab transactions from dbs transaction history csv",
+  "main": "index.js",
+  "scripts": {
+    "test": "yarn test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanbujm/dbs-csv-to-ynab.git"
+  },
+  "keywords": [
+    "ynab",
+    "dbs"
+  ],
+  "author": "Jonathan Van Buren",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vanbujm/dbs-csv-to-ynab/issues"
+  },
+  "homepage": "https://github.com/vanbujm/dbs-csv-to-ynab#readme",
+  "dependencies": {
+    "csv-js": "1.0.0",
+    "inquirer": "6.0.0"
+  }
+}
